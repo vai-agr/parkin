@@ -32,4 +32,10 @@ public class ParkingSlot {
     public void setTaken(boolean taken) {
         isTaken = taken;
     }
+    public void occupy(){
+        setTaken(true);
+    }
+    public void vacate(){
+        setTaken(false);
+    }
 }
